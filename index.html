@@ -13,6 +13,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="assets/rotating-card.css"  />
   <link rel="stylesheet" href="assets/style.css">
   <script src="https://use.fontawesome.com/40c34d1d16.js"></script>
 </head>
@@ -21,7 +22,7 @@
     <div class="row">
       <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
         <div class="thumbnail">
-          <img src="assets/images/headshot.jpg" alt="..." class='img-circle'>
+          <img src="assets/images/headshot.jpg" class='img-circle'>
           <div class="caption">
             <h3 class="text-center name">Billy Tian Lan</h3>
             <a href="mailto:billy.tian.lan@gmail.com" style="color:black;">
@@ -54,51 +55,287 @@
   </div> -->
   <div class="container-fluid">
     <div class="row icons-panel">
-      <div class="col-xs-6 col-md-3 interests-icons text-center">
+      <div class="home-icon col-xs-12 col-sm-4 col-md-3 interests-icons text-center scroll-class">
         <img src="assets/images/icons/stone_home.svg"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center">
+      <div class="coding-icon col-xs-12 col-sm-4 col-md-3 interests-icons text-center scroll-class">
         <img src="assets/images/icons/stone_code.svg"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center">
+      <div class="hiking-icon col-xs-12 col-sm-4 col-md-3 interests-icons text-center scroll-class">
         <img src="assets/images/icons/duotone_climb.svg"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center">
+      <div class="sports-icon col-xs-12 col-sm-4 col-md-3 interests-icons text-center scroll-class">
+        <img src="assets/images/icons/stone_bounce.svg"/>
+      </div>
+      <div class="dog-icon col-xs-12 col-sm-4 col-md-3 interests-icons text-center scroll-class">
         <img src="assets/images/icons/stone_encourage.svg"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center travel-icon">
-        <img src="assets/images/icons/sharp-corners_explore.svg"/>
-      </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center">
+      <div class="food-icon col-xs-12 col-sm-4 col-md-3 interests-icons text-center scroll-class">
         <img src="assets/images/icons/sharp-corners_eat.svg"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center">
+      <div class="shows-icon col-xs-12 col-sm-4 col-md-3 interests-icons text-center scroll-class">
         <img src="assets/images/icons/stone_start.svg"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center sports-icon">
-        <img src="assets/images/icons/stone_bounce.svg"/>
+      <div class="travels-icon col-xs-12 col-sm-4 col-md-3 interests-icons text-center scroll-class">
+        <img src="assets/images/icons/sharp-corners_explore.svg"/>
       </div>
     </div>
     <div class="row home-panel">
-      <!-- <div class="col-md-6">
-        <img src="assets/images/vancouver.jpg"/>
-      </div> -->
-      <div class="col-xs-6 col-md-6">
-        <img src="assets/images/vancouver.jpg"/>
+      <div class="panel-icon text-center image">
+        <div class="image-cropper">
+          <img src="assets/images/icons/round-home.png"/>
+        </div>
       </div>
-      <div class="col-md-6 home-description"></div>
+      <div class="col-xs-8 col-xs-offset-2">
+        <!-- <div class="panel-icon text-center">
+          <img src="assets/images/icons/stone_home.svg"/>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="face thumbnail text-center">
+            <h3>Xi'an</h3>
+            <img src="assets/images/xian-icon.png" alt="...">
+            <div class="caption">
+              <h5>#XIY</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="thumbnail text-center">
+            <h3>Vancouver</h3>
+            <img src="assets/images/vancouver-icon2.jpg" alt="...">
+            <div class="caption">
+              <h5>#YVR</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="thumbnail text-center">
+            <h3>San Francisco</h3>
+            <img src="assets/images/san-francisco-icon.png" alt="...">
+            <div class="caption">
+             <h5>#SFO</h5>
+            </div>
+          </div>
+        </div>-->
+        <div class="col-md-4 col-xs-12">
+          <div class="card-container manual-flip">
+            <div class="card">
+              <div class="front">
+                <div class="cover">
+                  <img src="assets/images/terracotta-warrior.jpg"/>
+                </div>
+                <div class="user">
+                  <img class="img-circle" src="assets/images/xian-icon.png"/>
+                </div>
+                <div class="content">
+                  <div class="main">
+                    <h3 class="name">Xi'an</h3>
+                    <p class="text-center">1991</p>
+                    <div class="stats-container">
+                        <div class="stats">
+                          <h4>13M</h4>
+                          <p>Population</p>
+                        </div>
+                        <div class="stats">
+                          <h4>XIY</h4>
+                          <p>Airport</p>
+                        </div>
+                        <div class="stats">
+                          <h4>CH</h4>
+                          <p>Country</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="footer">
+                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                      <i class="fa fa-mail-forward"></i> More
+                    </button>
+                  </div>
+                </div>
+               </div> <!-- end front panel -->
+               <div class="back">
+                  <div class="cover">
+                    <img src="assets/images/terracotta-warrior.jpg"/>
+                  </div>
+                  <div class="content">
+                    <div class="main">
+                      <h4 class="text-center">What to See</h4>
+                      <ul>
+                        <li>Terracotta Warriors</li>
+                        <li>Muslim Quarters</li>
+                        <li>Big Wild Goose Pagoda</li>
+                        <li>City Wall</li>
+                      </ul>
+                      <h4 class="text-center">What to Eat</h4>
+                      <ul>
+                        <li>Paomo</li>
+                        <li>Roujiamo</li>
+                        <li>Liangpi</li>
+                        <li>Lamb Skewers</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="footer">
+                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                      <i class="fa fa-mail-forward"></i> Back
+                    </button>
+                  </div>
+              </div> <!-- end back panel -->
+            </div> <!-- end card -->
+          </div> <!-- end card-container -->
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="card-container manual-flip">
+            <div class="card">
+              <div class="front">
+                <div class="cover">
+                  <img src="assets/images/vancouver.jpg"/>
+                </div>
+                <div class="user">
+                  <img class="img-circle" src="assets/images/vancouver-icon3.jpg"/>
+                </div>
+                <div class="content">
+                  <div class="main">
+                    <h3 class="name">Vancouver</h3>
+                    <p class="text-center">1997</p>
+                    <div class="stats-container">
+                        <div class="stats">
+                          <h4>2.3M</h4>
+                          <p>Population</p>
+                        </div>
+                        <div class="stats">
+                          <h4>YVR</h4>
+                          <p>Airport</p>
+                        </div>
+                        <div class="stats">
+                          <h4>CA</h4>
+                          <p>Country</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="footer">
+                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                      <i class="fa fa-mail-forward"></i> More
+                    </button>
+                  </div>
+                </div>
+               </div> <!-- end front panel -->
+               <div class="back">
+                  <div class="cover">
+                    <img src="assets/images/vancouver.jpg"/>
+                  </div>
+                  <div class="content">
+                    <div class="main">
+                      <h4 class="text-center">What to See</h4>
+                      <ul>
+                        <li>Stanley Park</li>
+                        <li>North Shore Mountains</li>
+                        <li>English Bay</li>
+                        <li>Granville Island</li>
+                      </ul>
+                      <h4 class="text-center">What to Eat</h4>
+                      <ul>
+                        <li>Sashimi</li>
+                        <li>Dim Sum</li>
+                        <li>King Crab</li>
+                        <li>Craft Beer</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="footer">
+                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                      <i class="fa fa-mail-forward"></i> Back
+                    </button>
+                  </div>
+              </div> <!-- end back panel -->
+            </div> <!-- end card -->
+          </div> <!-- end card-container -->
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="card-container manual-flip">
+            <div class="card">
+              <div class="front">
+                <div class="cover">
+                  <img src="assets/images/san-francisco.jpg"/>
+                </div>
+                <div class="user">
+                  <img class="img-circle" src="assets/images/san-francisco-icon.png"/>
+                </div>
+                <div class="content">
+                  <div class="main">
+                    <h3 class="name">San Francisco</h3>
+                    <p class="text-center">2016</p>
+                    <div class="stats-container">
+                        <div class="stats">
+                          <h4>4.6M</h4>
+                          <p>Population</p>
+                        </div>
+                        <div class="stats">
+                          <h4>SFO</h4>
+                          <p>Airport</p>
+                        </div>
+                        <div class="stats">
+                          <h4>US</h4>
+                          <p>Country</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="footer">
+                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                      <i class="fa fa-mail-forward"></i> More
+                    </button>
+                  </div>
+                </div>
+               </div> <!-- end front panel -->
+               <div class="back">
+                  <div class="cover">
+                    <img src="assets/images/san-francisco.jpg"/>
+                  </div>
+                  <div class="content">
+                    <div class="main">
+                      <h4 class="text-center">What to See</h4>
+                      <ul>
+                        <li>Golden Gate Bridge</li>
+                        <li>Alcatraz</li>
+                        <li>Twin Peaks</li>
+                        <li>Pier 39</li>
+                      </ul>
+                      <h4 class="text-center">What to Eat</h4>
+                      <ul>
+                        <li>Cioppino</li>
+                        <li>Burritos</li>
+                        <li>Pan-Asian</li>
+                        <li>Craft Beer</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="footer">
+                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                      <i class="fa fa-mail-forward"></i> Back
+                    </button>
+                  </div>
+              </div> <!-- end back panel -->
+            </div> <!-- end card -->
+          </div> <!-- end card-container -->
+        </div>
+      </div>
     </div>
     <div class="row coding-panel">
+      <div class="panel-icon text-center">
+        <div class="image-cropper">
+          <img src="assets/images/icons/round-coding.png"/>
+        </div>
+      </div>
       <div class="col-xs-6 col-md-3 interests-icons text-center">
         <img src="assets/images/icons/ruby-logo.png"/>
       </div>
       <div class="col-xs-6 col-md-3 interests-icons text-center">
         <img src="assets/images/icons/rails-logo.png"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center sports-icon">
+      <div class="col-xs-6 col-md-3 interests-icons text-center">
         <img src="assets/images/icons/postgresql-logo.png"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center sports-icon">
+      <div class="col-xs-6 col-md-3 interests-icons text-center">
         <img src="assets/images/icons/react-logo.png"/>
       </div>
       <div class="col-xs-6 col-md-3 interests-icons text-center">
@@ -113,10 +350,10 @@
       <div class="col-xs-6 col-md-3 interests-icons text-center">
         <img src="assets/images/icons/jquery.png"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center sports-icon">
+      <div class="col-xs-6 col-md-3 interests-icons text-center">
         <img src="assets/images/icons/mongodb-logo.png"/>
       </div>
-      <div class="col-xs-6 col-md-3 interests-icons text-center sports-icon">
+      <div class="col-xs-6 col-md-3 interests-icons text-center">
         <img src="assets/images/icons/express-logo.png"/>
       </div>
       <div class="col-xs-6 col-md-3 interests-icons text-center">
@@ -126,8 +363,39 @@
         <img src="assets/images/icons/nodejs_logo.png"/>
       </div>
     </div>
-    
+    <div class="row hiking-panel images-panel">
+      <div class="panel-icon text-center">
+        <div class="image-cropper">
+          <img src="assets/images/icons/round-hiking.png"/>
+        </div>
+      </div>
+      <div class="col-xs-10 col-xs-offset-1">
+        <div class="col-sm-4">
+          <img src="https://lh3.googleusercontent.com/1aI5I4zUGmceYbqfcXyX5MYhBwx9Sa9g6i9sVVyJkBlId3BxAF4Qtdd52JVK8cjoIhFalAmena26Xx_mgV1yGLz6infWCFv996kG4vlUJIpF10DbhGgReHpQwDCTLU92TZ2cLocdsbDUTvCA2fc7q4_mN9MgjOWVvbhJsgnh2GINIJHT5LFEDuqTcXkDA607PjWQyK1zvebcu2DR4FLOYTAwzy1L0Bj3FYRXh4vbFnJNWmsLyV0sviTFSmCdAvBOFqMYdWJxsmWxcICfP6ufGyxAHgJBWS049aE37U4IvSvdmU_9byt6Y4qgR_az3oNB51RhhbOTyfA_rXM9f8IcBfeucoE9LEv-4W4tuPhx29VKzk-7ClEiBDAvRZfGclIYqL9GIG29jpK_ZvqS0GoKXqZSFC0ZPZ596KLTac3zziqKemYjR3UNyMC9UxYIGIo5NEzPJQz0F4x-vePqPyipJRUmmimvC8iNzPVPsAbMzKhjGCwLrq0-oHO4uRn1JMpU00uB_HsTuptKukt_xiLkueigX_ZHeB-6kslEOfkKzEDevKhaaAmTSEtiNK2KokDD--ZZ163pW--YdKQjrnaNenkK37D1l0w=w1796-h1346-no"/>
+        </div>
+        <div class="col-sm-4">
+          <img src="https://lh3.googleusercontent.com/5h3VcblfpXG6sxkqEV96P32k1MNK_wH8OY_HiATvnVDyNHNGsiBnR4EIjHyg1Su9XwgerabjUuPnYYCnV6unkV2anOQGLAA4zZg9bvKKRGi3PXagSreSg_g5_NTyto7Xh6doZfN9w4ZJYt7FaOhawhVDaQRQzR_4J7Q5yUGfzVuvV75RxQbRi4GK4AUzLffJycog5CeAZygumbCMSgPMGOaixrhdqBLsl4_uBiZhDx25rI2YhxQ-uZlkl0Ut_yxPar2rsL01xY8cnldQLvQzfWCtet3hP1PcmzA62ohcwp_Sl39VgWdujfVCulWG_tyZRV_uDz-Av-qvAJeOmVzeIoNLB97xuHQHZ1BCeXYfnudqPkxvbDwpWqub_LOirJZeW9AfhJDACKPZfIRYCgQOORWcGJGj-mnyT1uRRKZpujMvsaPhrdItXOU6Adf779vtcFxd1ON3cqTpVmcdO-Ckc7IpF_tTTuUuoGuPNNl3vrVwk7vxP_JPZVAGBJ8Qcjdvfrlj4-UFH0M1cfrt3H-MXeZ_1By3-2NW2ry4cguKdhQc3Cdfa-CtQqi0tno7vKxbkclKkO0ExkLrvx35IpEZ-DRJRrZ_BRw=w760-h570-no"/>
+        </div>
+        <div class="col-sm-4">
+          <img src="https://lh3.googleusercontent.com/xZaDu9BkNM5M2WGHnhLpvshiBeumAuBqbqoyhTlg07Pf7SkJVib6HVFVi90Z9BVK1S2vzvZR_b9RaNiLah5tLsIX9KGcJyGeIq-CQmmyKMiM7DkzobTkjxKu8faAXZNDs3MEOx-0-Nk4izYPqHeLYR9WAZWpoXtRyL4wRrdybghhxvpAVMIp6V10xskBJovmwD2oeJj7QwV5IJJF1EqBTjAH7QOyT_54bAFNkHSRg9IGaWMiBx_a14MckovOcev_0Mwg3PJ4f4q-UisuWPDRv68n2KwLG3IuvOu52t1JySIue7RI1xQmUbqWA3HvCp6uxMA6k8I10mdLSwJ-2QC0GH-5wMGWn698ZGMeUMQEOcZyt3PaZ9Un5-czNyqHTEVK-a5GQzeTa8eZgE1_g_Uo90N9mOXfyQJs9B9eIB6O_wDa8M9ldJhr_qr8qfhHDSVN3jFh3ayJs6D7ID5LgfO3eLjnOL06wEYecVOvTn8XIh-V5bbkTwhDUpIyJhjGohDLh5et0Gx8Z7RR4buRN3EPyAX-l1sCis7QrwTaNdaK6zoOREWCaAUNhaSsjzmiudh5jdOwWZpKPej2Ek2tDrbDdki5I1BdmkA=w1796-h1346-no"/>
+        </div>
+        <div class="col-sm-4 bottom-row">
+          <img src="https://lh3.googleusercontent.com/B2TSATCUB_6BJQAKQrlIv48phAL5leOLO6Bq3GOzfMNCPJOwydQvfNVd95z9xTNdLeZs7S6GxxpDf_Z1HLxMdmhasgSnl8j7lEoKv3vwuQCLcHR_reHvwDoAS6QcyIDfjrW4YlTPXdWQPUnwHQhgSjI8yjvIHleKwVHOdqB56-T_z8dcT0tllu9V5jvjXaTGJcYbFvUHJXdBs8cDp4uQLNj3AMen3rwn_M1CL0K26yD_hmP3vddUWJ4vwU-kBezA7m9RIAyWROeVBQVtE6AeNNT3muoLchm031qdZTxgpUYd2zi5V8SPNtZ1-Y4R3T3dH-R75qjJ1_QwY9KjlcGYWKiqljWTVaA6puQqSVh3dcCwEowmunC37kPfo-yX4EQB7EFLwZ0dUPatldeE7LrmrqcDL5voFD9eaRZK9s8LqzlZL-SUc53HXqiKW5-yPKNsi1TpESCP30pnxqioQkAbN_65t_T4bqxfsDcau7CZ8jZvB4s7XvvewsmtM_Dw_sx7Z9RosRZ5twTzXAlEA7675zbup3LUKhuX1-br0JmANSH4E1ULqUHcuq-YrgJGjhO703H3X0pc-ZOVDxtkJ8hx7lzOAZONAEg=w1052-h788-no"/>
+        </div>
+        <div class="col-sm-4 bottom-row">
+          <img src="https://lh3.googleusercontent.com/1RcG3iyHdP3FCYkMSZ47dDXWQSrw6nw3tcYvA8A_URmE2xRTZctOqDYOM2NS1ccUuR43niWMEa2GNjzKCHHUMqb44fNWCriLFYA3a3LR0E-AmHasapzkCofI9mGEdy0JFYdYX-2cMtqa_HlsWxX0SuSw4m9i4afWzECatwPTPvM208TU4yzZZtY3c2d35k1_FwBbP4X0XJaoi0ajKAQEYPMbZKNAgFoOgYDeDtFXlfQkCt7ssNfJ0SsBVMnrQ_2mUAX9ZA2fm7Snu3DQK_UBoYMsBAVEZCvPY1zZ1C3Kq_4geqXR83JYEDKOjSmZ8xktyGe-iCtyvWfryLR60MFUwdEwhFlMv1jqOzAyPGpyI3WRw93fKEDYCiPZdlbYKcdIo_H4Li_90HEeLD8aXdN3AnKXf9niHow0Zd3uH3ceco1NIitm9yP2SAzVPKmahl5V-0aLB2FjyV-Xv4JlvKpQsNx6JHl5wes3DOcZg5Agaqvyo4S-4gxY42Ex8pOsLa9nWHzbzwvMfD9QTvvIPe0ORxYmmhmS6nuadQFCnuPl3mg_it33-3WlsgEbUSDsO9vomgFJFzkqY9Gm-VdA8pjMVxgZY0bLwcc=w1796-h1346-no"/>
+        </div>
+        <div class="col-sm-4 bottom-row">
+          <img src="https://lh3.googleusercontent.com/W_zDZQmmehDN5z6Wn-5pmDugURz_jqeXo6UpAwDTVWQyTGuO9Lt8fkr4cwaRUMYNxJvMJq_WsNpv3mOorw1Fv6NdDAN_6_0P0xrpDnuHhx-OpPUMWIwlKAw6R20vIpM-umN3-jvZctnQptQo4lJzrvMSo4BySySl24C49SEV1BKCIg_6t7zua0jzmG9xr2RYJFWaWHir4ytZk5FSYXMrpRs66DXYCjZwFYXOWq3b2K4sJwgEnE_JCU6nNT8jk8sJ0NG7UCfPxoOL1-h1YyINlYxdpy2416qatq-IhMyHPKM7v3fXtBDXIPFHpQPIn1yfASbGOcXxYNBJ4d3o8z6PySE1rNmsATX19gpYOGx5OGPyeFuIbizy549fkUBdxQniRKRGd2uOszsy_MEFsMaw7PyO651ZzljplzZqDfNWsdOW7U2zfM5BIjzntE8mxdqlQ3mbEsV10iPNL_fiijNFJCmZQnM_soN8GR0ZYSwZXHAmeWegiS-YeRy5F3RzIZAhqmNmzZgc3kxxpnFjDZC1ikJ25U0ScH9EOyKFVINgsbikl-ffz2YhdhVj0wF5ZJ4gf1Iqv44VjhSLKnU-_ajLyIwIGv2Sp6E=w1796-h1346-no"/>
+        </div>
+      </div>
+    </div>
     <div class="row sports-panel">
+      <div class="panel-icon text-center">
+        <div class="image-cropper">
+          <img src="assets/images/icons/round-basketball.png"/>
+        </div>
+      </div>
       <div class="col-xs-6 col-md-3 interests-icons text-center">
         <img src="assets/images/icons/vancouver-canucks.png"/>
       </div>
@@ -141,8 +409,114 @@
         <img src="assets/images/icons/seahawks.png"/>
       </div>
     </div>
-    <div id="map"></div>
+    <div class="row dog-panel images-panel">
+      <div class="panel-icon text-center">
+        <div class="image-cropper">
+          <img src="assets/images/icons/round-bone.png"/>
+        </div>
+      </div>
+      <div class="col-xs-10 col-xs-offset-1">
+        <div class="col-sm-4">
+          <img src="https://lh3.googleusercontent.com/UBS-TXc-G1AiHuPiozrsSICCmpgDdMd8ZEDu_TH0vlm5oBkMmOBLlHne_g4KmWBtw026e15Qj-XFaMRMV8Zgresx1jSpjPfwi8eIxNnrRZbHccnmyFnqseAnlPt_aR7h7Cj4VXjIgFZzdRR8Cj4endfaHk5fIUB665De_R2H7L755_CHoybgN4Yf9ILEd_uExVZrSEs5xBt1z15K6AZXaH6PbEQGuej-x7o0i-oorpUV_2lNQ5h2Z5IuGOqp4jFTAUYIWtlXinMpg9oDA4ARRodhFga5cp0b-0HrQRNlLan3u8aFjhB7crqpRto6Zv1zFpRBatXJ_3abOhoTT1dmZ6tQBFYmMhpDeGswVEvNjI0SBALnHvu11rQDNth7SrERCXBTB5oF7q53krzsyZM_XM4OYQYz4D_UB2sHwxf-0vjCRoTPD1wtziLgCDgtMTLyye98H4QmC7SJA3Apf2p2XeBS7lBu_qkN7j6jRKECXm9h1ZOcDM9npPKtXnsPSCWvPguzTpmIVgmp9ACbxuAx4gqqHqavLGqO_SP_ormcaneggigL0uOnxvzUXD1FfBy1HQ403IS7Eb4A1T9utOnAVPwJVRJOU-g=w960-h720-no"/>
+        </div>
+        <div class="col-sm-4">
+          <img src="https://lh3.googleusercontent.com/MakiqJ8_9MJwfprclknXPKN2Np8oB2EFkmpkrMvP-XidWMX0U6xmnnAHKme67BGPKwUYB6JndwHeWjAyyTPSiDhcagghW4HqqxLdbt0NyFw3KGcEGlYJNkDWYG60A-U3PHZ2DwqP0N2PbMtt3uXxljqeuwHUjBAUi7LIdmH9uj0MN4ebgbhJqwyzlXSbUcILIoemaiJuq-M6M9ojl2RdhrG71JhbOaa0VwG8TEPxKvVJuWfP4Ltm1kClal0EooMCZ-evDQV9dUTj3bhM3PVzjjarMLEh8sRE2rayxqRoBa_wfxBntfN0aHdvz0uYll8T2aNVZAMbspHbRa-s-gtZgEx5tqApyg20lCaMEBKHUV9lRPNI0q_c6WRDYd9Ic7Q1Q5YWqT1KqVmt6cKucHSexlCO08CwCb2mWT6x0jYWb1sHQZ8ErqVqhTCAFGuREgH_SUp3lT1-uXAKC7cl5LWeI11gPJ7Q3h3fiO6yhgZOQrtwMowZZw0CeFyrXqDLzPgZePqwxNA7LGpi4Z0OCMKaRlkcyfU-q-sC_UjAhee21EVOvTBu7FqTOoHKdDBrXHDyt9L41MhKNPs1HRCebaU1XAMlFJAiTPI=w1796-h1346-no"/>
+        </div>
+        <div class="col-sm-4">
+          <img src="https://lh3.googleusercontent.com/lx9WGjpw6Vs_3e4TNtMbCwcIpBexEskB0EGfsfrwnoSmHHDE8ER5etG-vj_CI1yrh1ZlleuY_RsNov1lebC-4a4nceF2T68h7LCsH2DGBUktXCLXZgEweZyMzeyJ0gNiC5hh0OgL8nH5l0VUVMyb8XS-gS9Tc99GdmeS17sklQEDGGFpy2eHVpQfLNcmldaBt9Up_tL2qeG4K_hGSEtfdouOB8k_Likung24oWJit02GedQ6lBEGv-9zYkhxKTeaHml5uMW3SF_iFURf1QXWrX8xyfDxraiFQbqtYzByeGkv-X9szMqHaXeVRK4jk4ctGSje_fN3QY_KC6-z2yB-cadBn2y8mvJPwbnn2h_YYytl54zbZ3un4Ir56FMjFkL9n0X1jcRFo9csPgH6HW4pq0bTTgWbUPTWQoOqdbq1rP4Z8OrgDTKoKf9vI5kQnngnK9KyuucD7Y5PvAOnUJr0_Y1rt2_q1lmEUJSs3FExFKrWxtAbW-6kFY8GAA3mEz6j1lrzQlUPKzQHnnYSw5nwSoaXUfP0V1BF9IakyeIJ1l7iBbIPZlR3ZK6g4kVSmjUG5kBiBCiYtn5LOuwMQ7tBVR9VreWneHw=w1280-h960-no"/>
+        </div>
+      </div>
+    </div>
+    <div class="row food-panel">
+      <div class="panel-icon text-center">
+        <div class="image-cropper">
+          <img src="assets/images/icons/food-icon.png"/>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="col-xs-12 col-md-6">
+          <a class="embedly-card" href="https://medium.com/@billytianlan/a-very-subjective-guide-to-where-and-what-you-should-eat-in-vancouver-part-1-sushi-1f7a22805f4#.ct02s8qwk">A Very Subjective Guide to Where and What You Should Eat in Vancouver - Part 1: Sushi</a>
+<script async src="http://cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <a class="embedly-card" href="https://medium.com/@billytianlan/a-very-subjective-guide-to-where-and-what-you-should-eat-in-vancouver-part-2-sandwiches-5371dce26af9#.dnnq71z93">A Very Subjective Guide to Where and What You Should Eat in Vancouver - Part 2: Sandwiches</a>
+<script async src="http://cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+        </div>
+      </div>
+    </div>
+    <div class="row shows-panel images-panel">
+      <div class="panel-icon text-center">
+        <div class="image-cropper">
+          <img src="assets/images/icons/round-shows.png"/>
+        </div>
+      </div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="col-xs-8 col-xs-offset-2">
+              <img src="assets/images/game-of-thrones.jpg" alt="game-of-thrones">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-8 col-xs-offset-2">
+              <img src="assets/images/the-walking-dead.png" alt="walking-dead">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-8 col-xs-offset-2">
+              <img src="assets/images/daredevil.png" alt="daredevil">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-8 col-xs-offset-2">
+              <img src="assets/images/silicon-valley.jpg" alt="silicon-valley">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-8 col-xs-offset-2">
+              <img src="assets/images/lord-of-the-rings.jpg" alt="the-lord-of-the-rings">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-8 col-xs-offset-2">
+              <img src="assets/images/forrest-gump.jpg" alt="the-lord-of-the-rings">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-8 col-xs-offset-2">
+              <img src="assets/images/the-lion-king.jpg" alt="the-lord-of-the-rings">
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="row travels-panel">
+      <div class="panel-icon text-center">
+        <div class="image-cropper">
+          <img src="assets/images/icons/round-globe.png"/>
+        </div>
+      </div>
+      <div id="map"></div>
+    </div>
   </div>
+  <p>Icons provided by <a href="http://www.toicon.com/">to[icon]</a></p>
   <script>
     var locations = [
       ['Ottawa', 45.4215, -75.6972],
@@ -232,11 +606,23 @@
         'slow');
     });
 
-    $(".sports-icon").click(function() {
+    $(".scroll-class").click(function() {
+      var classes = $(this).attr('class');
+      var icon = classes.split(' ')[0].split('-')[0];
     $('html,body').animate({
-        scrollTop: $(".sports-panel").offset().top},
+        scrollTop: $("."+ icon + "-panel").offset().top},
         'slow');
     });
+
+    function rotateCard(btn){
+        var $card = $(btn).closest('.card-container');
+        console.log($card);
+        if($card.hasClass('hover')){
+            $card.removeClass('hover');
+        } else {
+            $card.addClass('hover');
+        }
+    }
 
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAQKtjuiapKs2pHEdgfUy-atusdZMXMfk&callback=initMap"

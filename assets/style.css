@@ -27,7 +27,7 @@ body {
   height: 400px;
 }
 
-.thumbnail {
+.hero-image .thumbnail {
   margin-top: 70px;
 }
 
@@ -36,13 +36,9 @@ body {
   height: 150px;
 }
 
-/*a:link {
-  color: black;
+.thumbnail h3 {
+  font-family: 'Slabo 27px', serif;
 }
-
-a {
-  text-decoration: none;
-} */
 
 a:link {
   text-decoration: none;
@@ -74,10 +70,17 @@ a:active {
   cursor: pointer;
 }
 
+.sports-panel {
+  position: relative;
+}
+
 .sports-panel img {
   height: 75px;
   margin-top: 150px;
-  cursor: pointer;
+}
+
+.coding-panel {
+  position: relative;
 }
 
 .coding-panel img {
@@ -85,14 +88,24 @@ a:active {
   margin-top: 75px;
 }
 
+.shows-panel{
+  position: relative;
+  margin-top: 75px;
+}
+
+.shows-panel img {
+  margin-top: 75px;
+}
+
 #map {
-  margin-top: 150px;
   height: 400px;
 }
 
 .home-panel {
   margin-top: 75px; 
-  height: 375px;
+  padding-top: 75px;
+  background-color: #328484;
+  position: relative;
 }
 
 .home-panel img{
@@ -100,7 +113,79 @@ a:active {
   max-width: 100%;
 }
 
-.home-description {
-  background-color: #328484;
-  height: 100%;
+.home-panel .card-container {
+  margin-bottom: 75px;
 }
+
+.travels-panel  {
+  position: relative;
+}
+
+.travels-panel .image-cropper {
+  z-index: 1;
+}
+
+.images-panel {
+  margin-top: 75px; 
+  background-color: #328484;
+  position: relative;
+}
+
+.images-panel img {
+  max-width: 100%;
+  /*margin-top: 75px;*/
+  margin-bottom: 75px;
+}
+
+/*.bottom-row img {
+  margin-top: 0px;
+}*/
+
+.hiking-panel {
+  padding-top: 75px;
+}
+
+.dog-panel {
+  padding-top: 75px;
+  margin-top: 150px;
+}
+
+.food-panel {
+  position: relative;
+  padding-top: 75px;
+}
+
+.panel-icon {
+  position: absolute;
+  margin-left: -50px;
+  left: 50%;
+  top: -50px;
+}
+
+.panel-icon img {
+  height: 75px;
+}
+
+.card .stats-container {
+  margin-top: 25px;
+}
+
+.card .back .footer {
+  margin-top: 15px;
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image-cropper img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
