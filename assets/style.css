@@ -17,7 +17,7 @@ body {
 }
 
 .hero-image {
-  background: url('images/mountain-ocean-pano.jpg') no-repeat center center fixed; 
+  background: url('images/mountain-ocean-pano.jpg') no-repeat top center fixed; 
   height: 570px;
 }
 
